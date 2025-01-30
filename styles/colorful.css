@@ -1,0 +1,99 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+
+.button{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: #FFFFFF ;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* header styles for background images */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav styles */
+/* to get the "space" in the center */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+.nav-title{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+/* to clear the "dots" */
+nav ul li{
+    list-style: none; 
+    margin-right: 50px ;
+}
+
+/* to clear the "underlines" */
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* banner styles */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: lighter ;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+.banner-profile-picture{
+    width: 584px ;
+    height: 676px ;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 230px;
+    
+}
+.banner-content{
+    width: 585px;
+    height: 356px;
+}
