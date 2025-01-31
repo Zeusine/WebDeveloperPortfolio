@@ -154,3 +154,57 @@ main{
     padding:30px
     
 }
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.column-description{
+    color: #757575;
+}
+.column-sub-title{
+    color: #757575;
+    font-size: 20px;
+}
+.column-title{
+    font-size: 25px;
+}
+.resume-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume-column{
+    font-size: 30px;
+}
+
+.down-cv{
+    padding: 60px;
+}
+
+/* footer styles */
+.foot-column{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+footer{
+    padding: 130px 230px ;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+
+margin-bottom: 24px ;
+padding: 18px 349px 18px 30px;
+border: none;
+display: block;
+}
+
+.footer-title{
+    font-size: 35px;
+    padding-bottom: 28px ;
+
+}
