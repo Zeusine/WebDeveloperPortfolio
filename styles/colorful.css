@@ -190,6 +190,7 @@ main{
     justify-content: space-between;
     gap: 100px;
     
+    
 }
 footer{
     padding: 130px 230px ;
@@ -207,4 +208,38 @@ display: block;
     font-size: 35px;
     padding-bottom: 28px ;
 
+}
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .skill-container, 
+    .resume-container, 
+    footer, 
+    .about-items{
+        flex-direction: column;
+    }
+    .foot-column{
+        width: 100%;
+
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        padding: 10px 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer{
+        padding: 0px;
+    }
+    .footer-title{
+        margin-top: 20px;
+    }
+    .about{
+        padding: 10px;
+    }
+   
+    
 }
