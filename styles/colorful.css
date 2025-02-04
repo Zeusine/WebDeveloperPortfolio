@@ -219,8 +219,32 @@ display: block;
     .skill-container, 
     .resume-container, 
     footer, 
-    .about-items{
+    .about-items,
+    .banner,
+    nav{
         flex-direction: column;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .banner-profile-picture{
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-greetings{
+        font-size: 10vw;
+    }
+    .banner-title{
+        font-size: 7vw;
+    }
+    .banner-description{
+        font-size: 3vw;
+        padding-right: 210px;
+        
+    }
+    .header{
+        background-image: none;
     }
     .foot-column{
         width: 100%;
@@ -241,5 +265,9 @@ display: block;
         padding: 10px;
     }
    
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px ) {
     
 }
